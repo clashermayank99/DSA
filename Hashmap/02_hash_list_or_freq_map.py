@@ -36,6 +36,7 @@ freq2 = Solution2()
 print(freq2.getFrequency(n,m))
 
 # Optimal solution 2: We can use frequency-map if the contraint of n doesn't have constant values
+# Need to solve not working in case of response return with an object.
 class Solution3:
     def getFrequency(self, x:list[int], y:list[int]) -> dict[int, int]:
         freq_map = dict()
