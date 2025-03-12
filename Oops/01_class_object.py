@@ -2,7 +2,7 @@
 
 # Create a car class with attributes and create instance of this class
 class Car1: #example 1
-    brand = None #Called class attributes
+    brand = None #Called class attributes/Instances
     model = None
 
 my_car1 = Car1()
